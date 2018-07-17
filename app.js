@@ -1,3 +1,5 @@
+// tutorial reference by Yahya Elharony via YouTube. https://www.youtube.com/watch?v=G8J13lmApkQ
+
 // holds all of the card's names
 
 let cardNames = [
