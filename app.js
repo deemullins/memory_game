@@ -54,7 +54,7 @@ function startGame() {
 		span = document.getElementById('close'),
 		timerOn = false,
 		starsScorePanel = $('.stars'),
-		starRatings = [20, 36],
+		starRatings = [12, 24],
 		clock;
 
 	cardShuffle();
@@ -102,7 +102,7 @@ function startGame() {
 		// star ranking based on moves
 		starsScorePanel.children().children().each(function (index, element) {
 			if (starRatings[index] === moves) {
-				$(element).css('color', 'grey');
+				$(element).css('color', 'white');
 			}
 		});
 		$('.starRatingIcons').children().each(function (index, element) {
